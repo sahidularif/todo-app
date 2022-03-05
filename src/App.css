@@ -12,7 +12,58 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.heading{
+  margin-bottom: 20px;
+}
+.todo-list{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #7ec1c4;
+  padding: 15px;
+  border-radius: 15px;
+}
+h2{
+  margin: 0;
+  
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td {
+  color: navy;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input[type="text"],[type="number"]{
+  height: 30px;
+  width: 200px;
+  border:1px solid rgb(84, 105, 151);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+input[type="number"]{
+  height: 30px;
+  width: 80px;
+  border:1px solid rgb(84, 105, 151);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+input[type="submit"]{
+  height: 34px;
+  width: 100px;
+  border:1px solid rgb(84, 105, 151);
+  background-color: #7ec1c4;
+  border-radius: 5px;
+  font-weight: bold;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
